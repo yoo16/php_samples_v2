@@ -1,3 +1,9 @@
+<?php if (!isset($card) || !($card instanceof BaseCard)): ?>
+    <div class="p-4">
+        カードデータが見つかりません。
+    </div>
+    <?php return; ?>
+<?php endif ?>
 <div class="relative group">
     <!-- メイン画像枠: アスペクト比 3:4 (TCG標準に近い) で固定 -->
     <div class="card-image-frame rounded border-2 border-slate-700/50 aspect-[3/4] relative overflow-hidden bg-slate-950 shadow-2xl">

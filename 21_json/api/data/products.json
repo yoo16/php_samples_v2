@@ -1,0 +1,16 @@
+{
+  "products": [
+    { "id": 1,  "name": "エスプレッソマシン",       "category": "キッチン家電", "price": 32800, "stock": 12, "rating": 4.5, "description": "自宅で本格的なエスプレッソを楽しめる全自動マシン。" },
+    { "id": 2,  "name": "ステンレスマグボトル",     "category": "キッチン用品", "price": 2480,  "stock": 58, "rating": 4.2, "description": "保温・保冷どちらも対応する真空断熱ボトル。" },
+    { "id": 3,  "name": "ワイヤレスイヤホン",       "category": "オーディオ",   "price": 12800, "stock": 0,  "rating": 4.7, "description": "ノイズキャンセリング搭載のフルワイヤレスイヤホン。" },
+    { "id": 4,  "name": "Bluetoothスピーカー",      "category": "オーディオ",   "price": 6980,  "stock": 24, "rating": 4.0, "description": "防水対応でアウトドアにも使える小型スピーカー。" },
+    { "id": 5,  "name": "メカニカルキーボード",     "category": "PC周辺機器",   "price": 9800,  "stock": 15, "rating": 4.6, "description": "打鍵感にこだわった赤軸メカニカルキーボード。" },
+    { "id": 6,  "name": "ワイヤレスマウス",         "category": "PC周辺機器",   "price": 3480,  "stock": 40, "rating": 4.1, "description": "静音クリックと長持ちバッテリーが特徴。" },
+    { "id": 7,  "name": "ノートPCスタンド",         "category": "PC周辺機器",   "price": 2980,  "stock": 33, "rating": 4.3, "description": "アルミ製で放熱性に優れた角度調整スタンド。" },
+    { "id": 8,  "name": "電気ケトル",               "category": "キッチン家電", "price": 4280,  "stock": 21, "rating": 4.4, "description": "1分で沸くスピード沸騰の電気ケトル。" },
+    { "id": 9,  "name": "ホーロー鍋",               "category": "キッチン用品", "price": 8800,  "stock": 7,  "rating": 4.8, "description": "煮込み料理に最適な厚手のホーロー鍋。" },
+    { "id": 10, "name": "アロマディフューザー",     "category": "インテリア",   "price": 3980,  "stock": 18, "rating": 3.9, "description": "超音波式でお部屋にやさしく香りを広げます。" },
+    { "id": 11, "name": "LEDデスクライト",         "category": "インテリア",   "price": 5480,  "stock": 0,  "rating": 4.2, "description": "明るさと色温度を調整できる目にやさしいライト。" },
+    { "id": 12, "name": "モバイルバッテリー",       "category": "PC周辺機器",   "price": 3280,  "stock": 47, "rating": 4.5, "description": "10000mAhで急速充電に対応した薄型バッテリー。" }
+  ]
+}

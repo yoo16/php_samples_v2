@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(echo \"exit: $?\")"
+      "Bash(echo \"exit: $?\")",
+      "Bash(sed -i '' \"s/const DB_USERNAME = 'root';/const DB_USERNAME = 'your_username';/\" /Users/yoo/projects/php_samples_v2/21_api/employees/env.sample.php)",
+      "Bash(sed -i '' \"s/const DB_PASSWORD = '';/const DB_PASSWORD = 'your_password';/\" /Users/yoo/projects/php_samples_v2/21_api/employees/env.sample.php)",
+      "Bash(rm -rf travel employees)",
+      "Bash(mkdir -p data)",
+      "Bash(git mv *)"
     ]
   }
 }
